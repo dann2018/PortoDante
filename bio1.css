@@ -1,0 +1,138 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: margin-left .5s;
+    padding: 0;
+    margin: 0;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+    }
+
+    .closebutton {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        color: azure;
+        padding: 10px 10px;
+        border-radius: 9px;
+        border: 0;
+        margin-left: 70%;
+        margin-top: 5px;
+    }
+
+    .openbutton {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: black;
+        color: azure;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 9px;
+        visibility: visible;
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 15px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: red;
+        background-color: #f1f1f1;
+        margin: 0px 15px 15px 15px;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+
+    .openbutton:hover {
+        background-color: #444;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body styling */
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    
+    /* Container */
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    /* Header */
+    header h1 {
+        font-size: 2.5em;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    /* Section */
+    .about-content h2 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #2980b9;
+    }
+    
+    .about-content p {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+    
+    .about-content ul {
+        list-style-type: square;
+        margin-left: 20px;
+    }
+    
+    .about-content ul li {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+        font-size: 0.9em;
+        color: #888;
+    }
+
+
